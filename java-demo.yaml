@@ -2,6 +2,10 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: java-demo
+roleRef:
+  kind: ClusterRole
+  name: cluster-admin
+  agiGroup: rbac.authorization.k8s.io
 spec:
   replicas: 1
   selector:
