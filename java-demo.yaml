@@ -46,7 +46,7 @@ spec:
   selector:
     project: www
     app: java-demo
-  type: ClusterIP
+  type: NodePort
   ports:
     - protocol: TCP
       port: 8080
