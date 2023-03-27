@@ -17,7 +17,7 @@ spec:
       containers:
       - image: zjklzhao/maven-htmx
         name: java-demo
-        command: ["/bin/bash", "-ce", "tail -f /dev/null"]
+        command: ["/bin/bash", "-ce", "tail -f /dev/null", "java", "-jar", "/webapp/htmx-demo.jar"]
         resources:
           requests:
             cpu: 0.5
