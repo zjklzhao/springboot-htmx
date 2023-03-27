@@ -15,7 +15,7 @@ spec:
         app: java-demo
     spec:
       containers:
-      - image: IMAGE_NAME
+      - image: zjklzhao/maven-htmx
         name: java-demo
         resources:
           requests:
